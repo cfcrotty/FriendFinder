@@ -1,0 +1,25 @@
+{
+  "name": "FriendFinder",
+  "version": "1.0.0",
+  "description": "FriendFinder Homework",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfcrotty/FriendFinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cfcrotty/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/cfcrotty/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}
