@@ -21,7 +21,7 @@ h4 {
     text-decoration: none;
 }
 .anchor1:hover {
-    color: yellow;
+    color: rgb(148, 231, 148);
     text-decoration: none;
 }
 .image {
@@ -56,46 +56,20 @@ h4 {
 .desc {
     margin: 1% 5%;
 }
-.myGallery {
-    width: 60%;
-    margin: 1%;
-    transition: all 2s, transform .5s, box-shadow .5s;
-    margin-bottom: 20px;
-}
-
-.myGallery:hover {
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, .6);
-    transform: scale(1.02);
-}
-
-.myGallery:focus {
-    width: 80%;
-    box-shadow: 12px 12px 25px rgba(0, 0, 0, .7);
-    transform: none;
-}
-.jumbo2 {
-    padding: 2rem 2rem;
+.jumbo1 {
     /*background: url('../images/gems3.jpg') no-repeat center center fixed;
     background-size: 100% 100%;*/
     /*
-    background-image: url('../images/bg1.JPG');
-    */
-    background-size: cover;
-    background-position-x: 0px;
-    position: relative;
-    z-index: 3;
     background-image: url('https://res.cloudinary.com/hherymxgl/image/upload/v1554054823/bg1.jpg');
     background-position-y: -400px;
-    color: white;
-}
-.jumbo1 {
+    */
     padding: 2rem 2rem;
     background-size: cover;
     background-position-x: 0px;
     position: relative;
     z-index: 3;
     background-image: url('https://res.cloudinary.com/hherymxgl/image/upload/v1554054823/bg1.jpg');
-    background-position-y: -400px;
+    background-position-y: -350px;
     color: white;
 }
 .jumboSmall {
