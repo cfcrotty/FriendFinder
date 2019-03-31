@@ -6,6 +6,12 @@ body {
 p {
     font-size: 15px;
 }
+h4 {
+    margin-top: 20px;
+}
+.h4 {
+    margin-top: 10px;
+}
 .anchor {
     font-size: 20px;
     font-weight: 900;
@@ -67,26 +73,6 @@ p {
     box-shadow: 12px 12px 25px rgba(0, 0, 0, .7);
     transform: none;
 }
-/* Change Bootstrap CSS*/
-.container {
-    position: relative;
-    z-index: 3;
-    max-width: 80%;
-}
-.card-header { 
-    padding: 0;
-}
-.h2 {
-    font-size: 2rem;
-}
-.h1, h1 {
-    font-size: 1.5rem;
-    color: orangered;
-}
-
-.card {
-    margin-bottom: 3%;
-}
 .jumbo2 {
     padding: 2rem 2rem;
     /*background: url('../images/gems3.jpg') no-repeat center center fixed;
@@ -118,6 +104,48 @@ p {
 }
 .color1 {
     color: orangered;
+}
+.h1-2 {
+    font-size: 5rem;
+}
+.chosen-container {
+    font-size: 18px;
+}
+/* Change Bootstrap CSS*/
+/* .container {
+    position: relative;
+    z-index: 3;
+    max-width: 80%;
+} */
+.container {
+    min-height: calc(100vh - 255px);
+}
+.jumbotron {
+    padding: 2rem 1rem;
+}
+.card-header { 
+    padding: 0;
+}
+.h2 {
+    font-size: 2rem;
+}
+.h1 {
+    font-size: 1.5rem;
+    color: orangered;
+}
+.card {
+    margin-bottom: 3%;
+}
+.header {
+    margin: auto;
+}
+.navbar {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+.form-control {
+    font-size: 1.2rem;
 }
 /* START - Media Queries */
 @media screen and (max-width: 780px)  {
