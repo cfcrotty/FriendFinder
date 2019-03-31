@@ -6,14 +6,14 @@ Friend Finder application is like a dating app. This full-stack site will take i
 ### How to Use:
 1. Friend Finder has 2 pages.
     - Home Page
-        * It is the main/landing page. "Go to Survey" button goes to go to the survey page. It has footer with links to "API Friends List" and "GitHub Repo".
-        * The "Friend Finder" header also serves as a link to go back to the main page.
+        * It is the main/landing page. `Go to Survey` button goes to go to the survey page. It has footer with links to `API Friends List` and `GitHub Repo`.
+        * The `Friend Finder` header also serves as a link to go back to the main page.
 
     ![Sample Home Page](https://res.cloudinary.com/hherymxgl/image/upload/v1554064418/home.png)
 
     - Survey Page
-        * This can be accessed through the Home Page by clicking the "Go to Survey" button. The survey has 10 questions. Each answer is on a scale of 1 to 5 based on how much the user agrees or disagrees with a question. User has to fill out all the fields and questions and provide a valid image URL. After answering the questions, click the "Submit" button then, display the current user's most compatible friend with the name and picture.
-        * The "Friend Finder" header also serves as a link to go back to the main page.
+        * This can be accessed through the Home Page by clicking the `Go to Survey` button. The survey has 10 questions. Each answer is on a scale of 1 to 5 based on how much the user agrees or disagrees with a question. User has to fill out all the fields and questions and provide a valid image URL. After answering the questions, click the `Submit` button then, display the current user's most compatible friend with the name and picture.
+        * The `Friend Finder` header also serves as a link to go back to the main page.
 
     ![Sample Survey Page](https://res.cloudinary.com/hherymxgl/image/upload/v1554064419/survey.png)
         
