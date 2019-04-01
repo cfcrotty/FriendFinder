@@ -7,8 +7,10 @@
 
   <!-- Latest compiled and minified CSS & JS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 
   <!-- Font Awesome Glyphicons -->
@@ -290,7 +292,8 @@
           $.post("/api/friends", userData, function (data) {
             $("#match-name").text(data.name);
             $("#match-img").attr("src", data.photo);
-            $("#results-modal").modal("toggle");
+            $("#results-modal").modal();
+            //alert(data.name+" === "+data.photo);
           });
         } else {
           alert("Please fill out all fields before submitting!");
