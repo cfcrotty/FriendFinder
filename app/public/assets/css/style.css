@@ -85,6 +85,25 @@ h4 {
 .chosen-container {
     font-size: 18px;
 }
+.body {
+    margin: 0;
+    padding: 0;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    background: url('../images/error.JPG') no-repeat center center;
+    position: absolute;
+}
+.errorPageDiv {
+    margin: auto;
+    position: absolute;
+}
+.errorPageGif {
+    position: fixed;
+    width: 600px;
+    height: 600px;
+    z-index: 5;
+}
 /* Change Bootstrap CSS*/
 /* .container {
     position: relative;
@@ -141,6 +160,9 @@ h4 {
     .myGallery:focus {
         width: 100%;
         margin: 20px 0;
+    }
+    .errorPageGif {
+        width: 100%;
     }
 }
 /* END - Media Queries */
