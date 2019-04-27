@@ -17,7 +17,7 @@ const tableData = [
     },
     {
       name: "One",
-      photo: "https://cdn.pixabay.com/photo/2013/07/18/10/56/smiley-163510_1280.jpg",
+      photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Smiley.svg/1200px-Smiley.svg.png",
       scores: [
           1,
           1,
@@ -33,7 +33,7 @@ const tableData = [
     },
     {
       name: "Two",
-      photo: "https://cdn.pixabay.com/photo/2013/07/18/10/56/smiley-163510_1280.jpg",
+      photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Smiley.svg/1200px-Smiley.svg.png",
       scores: [
           2,
           2,
@@ -49,7 +49,7 @@ const tableData = [
     },
     {
       name: "Four",
-      photo: "https://cdn.pixabay.com/photo/2013/07/18/10/56/smiley-163510_1280.jpg",
+      photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Smiley.svg/1200px-Smiley.svg.png",
       scores: [
           4,
           4,
@@ -65,7 +65,7 @@ const tableData = [
     },
     {
       name: "Five",
-      photo: "https://cdn.pixabay.com/photo/2013/07/18/10/56/smiley-163510_1280.jpg",
+      photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Smiley.svg/1200px-Smiley.svg.png",
       scores: [
           5,
           5,
